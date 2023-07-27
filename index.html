@@ -38,37 +38,43 @@
   <body>
     <header class="py-5 lg:py-12 px-5 lg:px-60">
       <!-- nav bar -->
-      <div class="navbar bg-[#F85559] rounded-[60px] mb-14">
-        <!-- navbar start -->
-        <div class="hidden md:flex lg:flex md:navbar-start lg:navbar-start">
-          <ul
-            class="menu menu-horizontal px-1 text-white text-lg my-4 mx-6 lato"
-          >
-            <li><a>Home</a></li>
-            <li><a>About Us</a></li>
-            <li><a>Shop</a></li>
-            <li><a>All Fruits</a></li>
+      <nav
+        class="navbar md:bg-[#F85559] md:py-8 md:px-12 my-8 md:my-14 rounded-[600px] flex justify-between"
+      >
+        <div class="hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 text-white">
+            <li><a class="text-lg" href="#">Home</a></li>
+            <li><a class="text-lg" href="#">About Us</a></li>
+            <li><a class="text-lg" href="#">Shop</a></li>
+            <li><a class="text-lg" href="#">All Fruits</a></li>
           </ul>
         </div>
-        <!-- navbar center -->
-        <div class="navbar-start lg:navbar-center flex gap-3">
-          <img src="images/logo.png" class="mr-4" alt="" />
-          <h3 class="text-white lato text-[40px] font-bold">Fruit Burst</h3>
+
+        <div class="flex">
+          <div class="flex justify-center items-center gap-4">
+            <img
+              class="md:w-14 md:h-[60px] w-7 h-[30px]"
+              src="images/logo.png"
+              alt=""
+            />
+            <h3
+              class="md:text-white text-[#121212] lato text-xl md:text-[40px] font-bold"
+            >
+              Fruit Burst
+            </h3>
+          </div>
         </div>
-        <!-- navbar end -->
-        <div class="navbar-end">
+        <img class="w-6 h-6 md:hidden lg:hidden" src="images/menu.svg" alt="" />
+
+        <div class="hidden md:flex relative">
           <input
+            class="py-[18px] px-[30px] lato text-[#121212] md:w-[240px] lg:w-[400px] h-14 rounded-[50px]"
             type="search"
             placeholder="Search here"
-            class="bg-white border-none w-[400px] h-14 rounded-[50px] px-7 py-4"
           />
-          <img
-            src="images/search.svg"
-            alt=""
-            class="relative h-6 w-6 right-12"
-          />
+          <img class="absolute right-[30px]" src="images/search.svg" alt="" />
         </div>
-      </div>
+      </nav>
 
       <!-- banner area -->
       <div
@@ -85,15 +91,15 @@
             <div
               class="flex justify-center items-center text-white text-center flex-col lato"
             >
-              <h1 class="text-7xl font-bold">
+              <h1 class="text-2xl lg:text-7xl font-bold">
                 Exotic tastes at your <br />
                 doorstep
               </h1>
-              <p class="mt-6 text-xl">
+              <p class="mt-1 text-sm lg:mt-6 lg:text-xl">
                 We supply highly quality organic products
               </p>
               <button
-                class="mt-8 mb-20 py-[20px] px-[30px] bg-[#f85559] font-medium rounded-lg border-none text-white"
+                class="mt-2 lg:mt-8 lg:mb-20 py-2 lg:py-[20px] px-4 lg:px-[30px] bg-[#f85559] font-medium rounded-lg border-none text-white"
               >
                 Shop Now
               </button>
@@ -113,15 +119,15 @@
             <div
               class="flex justify-center items-center text-white text-center flex-col lato"
             >
-              <h1 class="text-7xl font-bold">
+              <h1 class="text-2xl lg:text-7xl font-bold">
                 Exotic tastes at your <br />
                 doorstep
               </h1>
-              <p class="mt-6 text-xl">
+              <p class="mt-1 text-sm lg:mt-6 lg:text-xl">
                 We supply highly quality organic products
               </p>
               <button
-                class="mt-8 mb-20 py-[20px] px-[30px] bg-[#f85559] font-medium rounded-lg border-none text-white"
+                class="mt-2 lg:mt-8 lg:mb-20 py-2 lg:py-[20px] px-4 lg:px-[30px] bg-[#f85559] font-medium rounded-lg border-none text-white"
               >
                 Shop Now
               </button>
@@ -140,15 +146,15 @@
             <div
               class="flex justify-center items-center text-white text-center flex-col lato"
             >
-              <h1 class="text-7xl font-bold">
+              <h1 class="text-2xl lg:text-7xl font-bold">
                 Exotic tastes at your <br />
                 doorstep
               </h1>
-              <p class="mt-6 text-xl">
+              <p class="mt-1 text-sm lg:mt-6 lg:text-xl">
                 We supply highly quality organic products
               </p>
               <button
-                class="mt-8 mb-20 py-[20px] px-[30px] bg-[#f85559] font-medium rounded-lg border-none text-white"
+                class="mt-2 lg:mt-8 lg:mb-20 py-2 lg:py-[20px] px-4 lg:px-[30px] bg-[#f85559] font-medium rounded-lg border-none text-white"
               >
                 Shop Now
               </button>
@@ -168,15 +174,15 @@
             <div
               class="flex justify-center items-center text-white text-center flex-col lato"
             >
-              <h1 class="text-7xl font-bold">
+              <h1 class="text-2xl lg:text-7xl font-bold">
                 Exotic tastes at your <br />
                 doorstep
               </h1>
-              <p class="mt-6 text-xl">
+              <p class="mt-1 text-sm lg:mt-6 lg:text-xl">
                 We supply highly quality organic products
               </p>
               <button
-                class="mt-8 mb-20 py-[20px] px-[30px] bg-[#f85559] font-medium rounded-lg border-none text-white"
+                class="mt-2 lg:mt-8 lg:mb-20 py-2 lg:py-[20px] px-4 lg:px-[30px] bg-[#f85559] font-medium rounded-lg border-none text-white"
               >
                 Shop Now
               </button>
@@ -190,11 +196,11 @@
     <!-- main section -->
     <main class="py-5 lg:py-12 px-5 lg:px-60">
       <!-- deal section -->
+
       <section>
         <div
           class="flex flex-col md:flex-row lg:flex-row lg:justify-between lg:items-center"
         >
-          <!-- content left -->
           <div>
             <h2 class="lato text-5xl font-extrabold text-[#121212] mb-6">
               Deal of the day
@@ -205,8 +211,8 @@
               Latin literature from 45 BC, making it over 2000 years old.
             </p>
           </div>
-          <!-- countdown right -->
-          <div>
+
+          <!-- <div>
             <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
               <div class="flex flex-col">
                 <span
@@ -254,7 +260,7 @@
                 <p class="text-[#121212]">Sec</p>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <!-- card one -->
