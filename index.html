@@ -36,6 +36,7 @@
     </style>
   </head>
   <body>
+    <!-- header section -->
     <header class="py-5 lg:py-12 px-5 lg:px-60">
       <!-- nav bar -->
       <nav
@@ -191,32 +192,62 @@
           </div>
         </div>
       </div>
+
+      <div
+        class="hidden lg:flex justify-between items-center w-[1196px] h-[250px] bg-white rounded-lg relative bottom-32 left-32 py-[50px] px-[70px] drop-shadow-xl"
+      >
+        <div>
+          <img src="images/fruit1.png" alt="" />
+          <p>Strawberry</p>
+        </div>
+        <div>
+          <img src="images/fruit2.png" alt="" />
+          <p>Orange</p>
+        </div>
+        <div>
+          <img src="images/fruit3.png" alt="" />
+          <p>Mnago</p>
+        </div>
+        <div>
+          <img src="images/fruit4.png" alt="" />
+          <p>Strawberry</p>
+        </div>
+        <div>
+          <img src="images/fruit5.png" alt="" />
+          <p>Mango</p>
+        </div>
+      </div>
     </header>
 
     <!-- main section -->
+
     <main class="py-5 lg:py-12 px-5 lg:px-60">
       <!-- deal section -->
 
       <section>
         <div
-          class="flex flex-col md:flex-row lg:flex-row lg:justify-between lg:items-center"
+          class="flex flex-col lg:flex-row lg:justify-between lg:items-center"
         >
-          <div>
-            <h2 class="lato text-5xl font-extrabold text-[#121212] mb-6">
+          <div class="text-center lg:text-left">
+            <h2
+              class="lato text-xl md:text-5xl font-extrabold text-[#121212] mb-2 md:mb-6"
+            >
               Deal of the day
             </h2>
-            <p class="lato leading-7 text-[#1212128f] mb-12">
+            <p class="lato leading-7 text-[#1212128f] mb-8 md:mb-12">
               Contrary to popular belief, is not simply random text. It has
               roots in a piece of classical<br />
               Latin literature from 45 BC, making it over 2000 years old.
             </p>
           </div>
 
-          <!-- <div>
-            <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+          <div class="flex justify-center mb-8">
+            <div
+              class="grid grid-flow-col gap-5 text-center auto-cols-max mb-5 md:mb-0"
+            >
               <div class="flex flex-col">
                 <span
-                  class="countdown font-mono text-5xl flex gap-6 items-center"
+                  class="countdown font-mono text-5xl flex gap-3 md:gap-6 items-center"
                 >
                   <span
                     class="text-[#121212] font-extrabold text-5xl lato"
@@ -228,7 +259,7 @@
               </div>
               <div class="flex flex-col">
                 <span
-                  class="countdown font-mono text-5xl flex items-center gap-6"
+                  class="countdown font-mono text-5xl flex items-center gap-3 md:gap-6"
                 >
                   <span
                     class="text-[#121212] font-extrabold text-5xl lato"
@@ -240,7 +271,7 @@
               </div>
               <div class="flex flex-col">
                 <span
-                  class="countdown font-mono text-5xl flex items-center gap-6"
+                  class="countdown font-mono text-5xl flex items-center gap-3 md:gap-6"
                 >
                   <span
                     class="text-[#121212] font-extrabold text-5xl lato"
@@ -260,9 +291,11 @@
                 <p class="text-[#121212]">Sec</p>
               </div>
             </div>
-          </div> -->
+          </div>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-6"
+        >
           <!-- card one -->
           <div class="card w-[342px] border">
             <figure class="px-10 pt-10">
@@ -286,9 +319,11 @@
 
               <dialog id="my_modal_1" class="modal">
                 <!-- input card here -->
-                <div class="card w-[900px] h-auto rounded-3xl border modal-box">
+                <div
+                  class="card w-[385px] h-[480px] md:w-[900px] md:h-auto rounded-3xl border modal-box"
+                >
                   <form method="dialog" class="">
-                    <figure class="px-10 py-10">
+                    <figure class="p-4 md:p-10">
                       <img
                         src="images/fruit6.png"
                         alt="frouit"
@@ -297,7 +332,7 @@
                     </figure>
                     <div class="card-body items-center text-center p-0">
                       <h2
-                        class="text-[#121212] lato text-[40px] font-extrabold mb-6"
+                        class="text-[#121212] lato text-3xl md:text-[40px] font-extrabold mb-0 md:mb-6"
                       >
                         Apples
                       </h2>
@@ -308,11 +343,13 @@
                       </p>
                       <img
                         src="images/stars.svg"
-                        class="h-6 w-40 mt-8 mb-10"
+                        class="h-6 w-40 mt-4 md:mt-8 mb-4 md:mb-10"
                         alt=""
                       />
 
-                      <div class="flex justify-center gap-5 items-center mb-16">
+                      <div
+                        class="flex justify-center gap-5 items-center mb-0 md:mb-16"
+                      >
                         <button class="btn btn-outline btn-error">Close</button>
                         <button class="btn bg-red-400 text-white">
                           Buy Now
@@ -347,9 +384,11 @@
 
               <dialog id="my_modal_2" class="modal">
                 <!-- input card here -->
-                <div class="card w-[900px] h-auto rounded-3xl border modal-box">
+                <div
+                  class="card w-[385px] h-[480px] md:w-[900px] md:h-auto rounded-3xl border modal-box"
+                >
                   <form method="dialog" class="">
-                    <figure class="px-10 py-10">
+                    <figure class="p-4 md:p-10">
                       <img
                         src="images/fruit7.png"
                         alt="fruit"
@@ -358,7 +397,7 @@
                     </figure>
                     <div class="card-body items-center text-center p-0">
                       <h2
-                        class="text-[#121212] lato text-[40px] font-extrabold mb-6"
+                        class="text-[#121212] lato text-3xl md:text-[40px] font-extrabold mb-0 md:mb-6"
                       >
                         Orange
                       </h2>
@@ -369,11 +408,13 @@
                       </p>
                       <img
                         src="images/stars.svg"
-                        class="h-6 w-40 mt-8 mb-10"
+                        class="h-6 w-40 mt-4 md:mt-8 mb-6 md:mb-10"
                         alt=""
                       />
 
-                      <div class="flex justify-center gap-5 items-center mb-16">
+                      <div
+                        class="flex justify-center gap-5 items-center mb-0 md:mb-16"
+                      >
                         <button class="btn btn-outline btn-error">Close</button>
                         <button class="btn bg-red-400 text-white">
                           Buy Now
@@ -409,9 +450,11 @@
 
               <dialog id="my_modal_3" class="modal">
                 <!-- input card here -->
-                <div class="card w-[900px] h-auto rounded-3xl border modal-box">
+                <div
+                  class="card w-[385px] h-[480px] md:w-[900px] md:h-auto rounded-3xl border modal-box"
+                >
                   <form method="dialog" class="">
-                    <figure class="px-10 py-10">
+                    <figure class="p-4 md:p-10">
                       <img
                         src="images/fruit8.png"
                         alt="fruit"
@@ -420,7 +463,7 @@
                     </figure>
                     <div class="card-body items-center text-center p-0">
                       <h2
-                        class="text-[#121212] lato text-[40px] font-extrabold mb-6"
+                        class="text-[#121212] lato text-3xl md:text-[40px] font-extrabold mb-0 md:mb-6"
                       >
                         Red Dragon
                       </h2>
@@ -431,11 +474,13 @@
                       </p>
                       <img
                         src="images/stars.svg"
-                        class="h-6 w-40 mt-8 mb-10"
+                        class="h-6 w-40 mt-4 md:mt-8 mb-6 md:mb-10"
                         alt=""
                       />
 
-                      <div class="flex justify-center gap-5 items-center mb-16">
+                      <div
+                        class="flex justify-center gap-5 items-center mb-0 md:mb-16"
+                      >
                         <button class="btn btn-outline btn-error">Close</button>
                         <button class="btn bg-red-400 text-white">
                           Buy Now
@@ -470,9 +515,11 @@
 
               <dialog id="my_modal_4" class="modal">
                 <!-- input card here -->
-                <div class="card w-[900px] h-auto rounded-3xl border modal-box">
+                <div
+                  class="card w-[385px] h-[480px] md:w-[900px] md:h-auto rounded-3xl border modal-box"
+                >
                   <form method="dialog" class="">
-                    <figure class="px-10 py-10">
+                    <figure class="p-4 md:p-10">
                       <img
                         src="images/fruit9.png"
                         alt="fruit"
@@ -481,7 +528,7 @@
                     </figure>
                     <div class="card-body items-center text-center p-0">
                       <h2
-                        class="text-[#121212] lato text-[40px] font-extrabold mb-6"
+                        class="text-[#121212] lato text-3xl md:text-[40px] font-extrabold mb-0 md:mb-6"
                       >
                         Banana
                       </h2>
@@ -492,11 +539,13 @@
                       </p>
                       <img
                         src="images/stars.svg"
-                        class="h-6 w-40 mt-8 mb-10"
+                        class="h-6 w-40 mt-4 md:mt-8 mb-6 md:mb-10"
                         alt=""
                       />
 
-                      <div class="flex justify-center gap-5 items-center mb-16">
+                      <div
+                        class="flex justify-center gap-5 items-center mb-0 md:mb-16"
+                      >
                         <button class="btn btn-outline btn-error">Close</button>
                         <button class="btn bg-red-400 text-white">
                           Buy Now
@@ -514,7 +563,7 @@
       <!-- team section -->
 
       <section
-        class="bg-base-100 w-auto h-auto my-60"
+        class="bg-base-100 w-auto h-auto md:my-60"
         style="
           background-image: url(images/team.png);
           background-size: cover;
@@ -523,15 +572,15 @@
       >
         <div
           style="background-color: rgba(18, 18, 18, 0.7)"
-          class="w-auto p-[120px] rounded-lg"
+          class="w-auto px-12 py-6 md:p-[120px] rounded-lg"
         >
           <!-- team container -->
 
           <div class="text-center text-white">
-            <h2 class="lato text-5xl font-extrabold mb-6">
-              Meet the team section
+            <h2 class="lato text-xl md:text-5xl font-extrabold mb-0 md:mb-6">
+              Meet the team Member
             </h2>
-            <p class="mb-12 lato leading-6">
+            <p class="text-sm md:text-base mb-[20px] md:mb-12 lato leading-6">
               Contrary to popular belief, is not simply random text. It has
               roots in a piece of classical<br />
               Latin literature from 45 BC, making it over 2000 years old.
@@ -605,7 +654,7 @@
 
       <!-- why choose us section -->
 
-      <section class="my-5 lg:my-[140px]">
+      <section class="my-5 md:py-5 md:px-[140px] lg:my-[140px]">
         <div class="text-center lato">
           <h2 class="text-5xl font-extrabold">Why Choose Us</h2>
           <p class="mt-6 mb-12 leading-6">
@@ -618,15 +667,19 @@
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
           <div class="order-2 lg:order-1">
             <!-- issue one -->
-            <div class="flex justify-between items-center gap-5 mb-12">
+            <div
+              class="flex flex-col md:flex-row md:justify-between items-center gap-5 mb-12"
+            >
               <img
                 class="h-auto w-auto p-[18px] bg-gray-300 rounded-full"
                 src="images/dedicated.svg"
                 alt=""
               />
-              <div class="lato">
+              <div class="lato text-center md:text-left">
                 <h3 class="text-2xl font-extrabold mb-5">Dedicated Team</h3>
-                <div class="w-24 h-[1px] bg-gray-700 mb-4"></div>
+                <div
+                  class="w-24 h-[1px] bg-gray-700 mb-4 relative left-[120px] md:left-0"
+                ></div>
                 <p class="leading-7">
                   Professional employees are there for you to pick <br />
                   the most amazing and fresh fruits.
@@ -635,15 +688,19 @@
             </div>
 
             <!-- issue two -->
-            <div class="flex justify-between items-center gap-5 mb-12">
+            <div
+              class="flex flex-col md:flex-row md:justify-between items-center gap-5 mb-12"
+            >
               <img
                 class="h-auto w-auto p-[18px] bg-gray-300 rounded-full"
-                src="images/fresh.svg"
+                src="images/dedicated.svg"
                 alt=""
               />
-              <div class="lato">
+              <div class="lato text-center md:text-left">
                 <h3 class="text-2xl font-extrabold mb-5">Fresh is Best</h3>
-                <div class="w-24 h-[1px] bg-gray-700 mb-4"></div>
+                <div
+                  class="w-24 h-[1px] bg-gray-700 mb-4 relative left-[120px] md:left-0"
+                ></div>
                 <p class="leading-7">
                   Professional employees are there for you to pick <br />
                   the most amazing and fresh fruits.
@@ -652,15 +709,20 @@
             </div>
 
             <!-- issue three -->
-            <div class="flex justify-between items-center gap-5">
+
+            <div
+              class="flex flex-col md:flex-row md:justify-between items-center gap-5 mb-12"
+            >
               <img
                 class="h-auto w-auto p-[18px] bg-gray-300 rounded-full"
-                src="images/gift.svg"
+                src="images/dedicated.svg"
                 alt=""
               />
-              <div class="lato">
+              <div class="lato text-center md:text-left">
                 <h3 class="text-2xl font-extrabold mb-5">Gift Certificates</h3>
-                <div class="w-24 h-[1px] bg-gray-700 mb-4"></div>
+                <div
+                  class="w-24 h-[1px] bg-gray-700 mb-4 relative left-[120px] md:left-0"
+                ></div>
                 <p class="leading-7">
                   Professional employees are there for you to pick <br />
                   the most amazing and fresh fruits.
@@ -668,18 +730,22 @@
               </div>
             </div>
           </div>
+
           <div class="order-1 lg:order-2">
             <img class="rounded-lg" src="images/whychoose1.png" alt="" />
           </div>
-          <div class="order-3 text-right">
+
+          <div class="order-3 text-center md:text-right">
             <!-- issue four -->
-            <div class="flex justify-between items-center gap-5 mb-12">
-              <div class="lato relative">
+            <div
+              class="flex flex-col md:flex-row md:justify-between items-center gap-5 mb-12"
+            >
+              <div class="lato relative order-2 md:order-1">
                 <h3 class="text-2xl font-extrabold mb-10">
                   Integrated Supplier
                 </h3>
                 <div
-                  class="w-24 h-[1px] bg-gray-700 mb-4 absolute right-1 top-14"
+                  class="w-24 h-[1px] bg-gray-700 mb-4 absolute right-[120px] md:right-1 top-14"
                 ></div>
                 <p class="leading-7 mt-4">
                   Professional employees are there for you to pick <br />
@@ -687,20 +753,22 @@
                 </p>
               </div>
               <img
-                class="h-auto w-auto p-[18px] bg-gray-300 rounded-full"
+                class="h-auto w-auto p-[18px] bg-gray-300 rounded-full order-1 md:order-2"
                 src="images/supply.svg"
                 alt=""
               />
             </div>
 
             <!-- issue five -->
-            <div class="flex justify-between items-center gap-5 mb-12">
-              <div class="lato relative">
+            <div
+              class="flex flex-col md:flex-row md:justify-between items-center gap-5 mb-12"
+            >
+              <div class="lato relative order-2 md:order-1">
                 <h3 class="text-2xl font-extrabold mb-10">
                   Sustainable practice
                 </h3>
                 <div
-                  class="w-24 h-[1px] bg-gray-700 mb-4 absolute right-1 top-14"
+                  class="w-24 h-[1px] bg-gray-700 mb-4 absolute right-[120px] md:right-1 top-14"
                 ></div>
                 <p class="leading-7">
                   Professional employees are there for you to pick <br />
@@ -708,18 +776,20 @@
                 </p>
               </div>
               <img
-                class="h-auto w-auto p-[18px] bg-gray-300 rounded-full"
+                class="h-auto w-auto p-[18px] bg-gray-300 rounded-full order-1 md:order-2"
                 src="images/practice.svg"
                 alt=""
               />
             </div>
 
             <!-- issue six -->
-            <div class="flex justify-between items-center gap-5">
-              <div class="lato relative">
+            <div
+              class="flex flex-col md:flex-row md:justify-between items-center gap-5"
+            >
+              <div class="lato relative order-2 md:order-1">
                 <h3 class="text-2xl font-extrabold mb-10">The Benefits Only</h3>
                 <div
-                  class="w-24 h-[1px] bg-gray-700 mb-4 absolute right-1 top-14"
+                  class="w-24 h-[1px] bg-gray-700 mb-4 absolute right-[120px] md:right-1 top-14"
                 ></div>
                 <p class="leading-7">
                   Professional employees are there for you to pick <br />
@@ -727,7 +797,7 @@
                 </p>
               </div>
               <img
-                class="h-auto w-auto p-[18px] bg-gray-300 rounded-full"
+                class="h-auto w-auto p-[18px] bg-gray-300 rounded-full order-1 md:order-2"
                 src="images/benifits.svg"
                 alt=""
               />
@@ -738,54 +808,92 @@
     </main>
 
     <!-- footer section -->
-    <footer class="bg-black py-36">
+    <footer class="bg-black py-12 md:py-36">
       <div class="flex flex-col justify-center items-center">
         <div class="flex justify-center items-center gap-4">
           <img class="w-[54.5px] h-[60px]" src="images/logo.png" alt="" />
           <h3 class="lato text-[40px] text-white font-bold">Fruit Burst</h3>
         </div>
         <div>
-          <ul class="list-none grid grid-cols-4 lg:grid-cols-6 gap-16 my-16">
+          <ul
+            class="list-none grid grid-cols-4 lg:grid-cols-6 gap-4 md:gap-16 my-16"
+          >
             <li>
-              <a class="text-white no-underline font-semibold text-lg" href="#"
+              <a
+                class="text-white no-underline font-semibold text-sm md:text-lg"
+                href="#"
                 >Home</a
               >
             </li>
             <li>
-              <a class="text-white no-underline font-semibold text-lg" href="#"
+              <a
+                class="text-white no-underline font-semibold text-sm md:text-lg"
+                href="#"
                 >About Us</a
               >
             </li>
             <li>
-              <a class="text-white no-underline font-semibold text-lg" href="#"
+              <a
+                class="text-white no-underline font-semibold text-sm md:text-lg"
+                href="#"
                 >Shop</a
               >
             </li>
             <li>
-              <a class="text-white no-underline font-semibold text-lg" href="#"
+              <a
+                class="text-white no-underline font-semibold text-sm md:text-lg"
+                href="#"
                 >All Fruits</a
               >
             </li>
             <li>
-              <a class="text-white no-underline font-semibold text-lg" href="#"
+              <a
+                class="text-white no-underline font-semibold text-sm md:text-lg"
+                href="#"
                 >Support</a
               >
             </li>
             <li>
-              <a class="text-white no-underline font-semibold text-lg" href="#"
+              <a
+                class="text-white no-underline font-semibold text-sm md:text-lg"
+                href="#"
                 >My Account</a
               >
             </li>
           </ul>
         </div>
 
-        <div class="grid grid-cols-3 lg:grid-cols-6 gap-10">
-          <img src="images/twitter-1.svg" alt="" />
-          <img src="images/facebook-1.svg" alt="" />
-          <img src="images/youtube.svg" alt="" />
-          <img src="images/linkedin-1.svg" alt="" />
-          <img src="images/instagram-1.svg" alt="" />
-          <img src="images/apple-1.svg" alt="" />
+        <div class="grid grid-cols-6 gap-10">
+          <img
+            class="h-6 w-6 md:h-auto md:w-auto"
+            src="images/twitter-1.svg"
+            alt=""
+          />
+          <img
+            class="h-6 w-6 md:h-auto md:w-auto"
+            src="images/facebook-1.svg"
+            alt=""
+          />
+          <img
+            class="h-6 w-6 md:h-auto md:w-auto"
+            src="images/youtube.svg"
+            alt=""
+          />
+          <img
+            class="h-6 w-6 md:h-auto md:w-auto"
+            src="images/linkedin-1.svg"
+            alt=""
+          />
+          <img
+            class="h-6 w-6 md:h-auto md:w-auto"
+            src="images/instagram-1.svg"
+            alt=""
+          />
+          <img
+            class="h-6 w-6 md:h-auto md:w-auto"
+            src="images/apple-1.svg"
+            alt=""
+          />
         </div>
       </div>
     </footer>
